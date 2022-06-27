@@ -4,7 +4,7 @@
 #
 Name     : pypi-backports.shutil_get_terminal_size
 Version  : 1.0.0
-Release  : 48
+Release  : 49
 URL      : https://files.pythonhosted.org/packages/ec/9c/368086faa9c016efce5da3e0e13ba392c9db79e3ab740b763fe28620b18b/backports.shutil_get_terminal_size-1.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ec/9c/368086faa9c016efce5da3e0e13ba392c9db79e3ab740b763fe28620b18b/backports.shutil_get_terminal_size-1.0.0.tar.gz
 Summary  : A backport of the get_terminal_size function from Python 3.3's shutil.
@@ -67,7 +67,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1654271887
+export SOURCE_DATE_EPOCH=1656360704
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -108,7 +108,7 @@ popd
 ## Remove excluded files
 rm -f %{buildroot}*/usr/lib/python3.10/site-packages/backports/__init__.py
 rm -f %{buildroot}*/usr/lib/python3.10/site-packages/backports/__pycache__/__init__.cpython-*.pyc
-/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot}/usr/share/clear/optimized-elf/ %{buildroot}/usr/share/clear/filemap/filemap-%{name}
+/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot} %{buildroot}/usr/share/clear/filemap/filemap-%{name}
 
 %files
 %defattr(-,root,root,-)
