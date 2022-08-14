@@ -4,7 +4,7 @@
 #
 Name     : pypi-backports.shutil_get_terminal_size
 Version  : 1.0.0
-Release  : 50
+Release  : 51
 URL      : https://files.pythonhosted.org/packages/ec/9c/368086faa9c016efce5da3e0e13ba392c9db79e3ab740b763fe28620b18b/backports.shutil_get_terminal_size-1.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ec/9c/368086faa9c016efce5da3e0e13ba392c9db79e3ab740b763fe28620b18b/backports.shutil_get_terminal_size-1.0.0.tar.gz
 Summary  : A backport of the get_terminal_size function from Python 3.3's shutil.
